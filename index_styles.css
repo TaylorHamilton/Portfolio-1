@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*
+   
+   Index Style Sheet for the Portfolio Website
+   Author: Taylor Hamilton
+   Date:  11/4/19
+   
+   Filename: index_styles.css
+
+*/
+html{
+    background-color: black;
+}
+body{
+    background: linear-gradient(black 20%, rgb(31, 0, 170), rgb(3, 129, 51));
+    max-width: 1000px;
+    min-width: 800px;
+    margin: auto;
+}
+img{
+    width:250px;
+    height: 200px;
+    position: absolute;
+    right: 43%;
+}
+nav a{
+    color: rgb(240, 156, 32);
+    float: left;
+    width: 18%;
+    display: block;
+    text-align: center;
+    border: double rgb(240, 156, 32);
+    border-radius: 10px;
+    padding: 5px;
+}
