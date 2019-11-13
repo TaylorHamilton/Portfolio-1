@@ -40,6 +40,10 @@ body{
     color: azure;
     font-style: oblique;
 }
+h1{
+   font-size:25px;
+   text-decoration: underline;
+}
 img#fbla{
    float: right;
 }
@@ -185,6 +189,9 @@ footer::after {
  }
  article#contact{
    font-family: sans-serif;
+   border: double white 7px;
+   border-radius: 25px;
+   box-shadow: inset 5px 5px 10px white;
  }
  article#skills{
     font-size: 50px;
