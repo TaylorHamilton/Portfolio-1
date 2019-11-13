@@ -51,6 +51,7 @@ article#home h1{
 article#skills h1{
    font-size: 50px;
    text-decoration: underline;
+   text-align: center
 }
 aside#projects p{
    text-align: center;
@@ -60,12 +61,24 @@ aside#projects p{
 img#fbla{
    float: right;
 }
+img#skill{
+   width: 200px;
+}
 img#school{
     float: left;
     height: 250px;
 }
+img#skill2{
+   width: 350px;
+}
+img#skill3{
+   width: 350px;
+}
 h3{
    text-decoration: azure;
+}
+aside#projects h3{
+   text-align: center;
 }
  nav#main ul li  a{
     display: block;
@@ -82,7 +95,10 @@ img{
     min-width: 250px;
     height: 250px;
     box-sizing: border-box;
-    padding-bottom: 0%;
+    padding: 0%;
+    clear: both;
+    content: "";
+    float: left;
 }
 nav a{
     color: rgb(253, 253, 253);
@@ -211,4 +227,7 @@ footer::after {
  }
  article#home{
     font-size: 100px;
+ }
+ p#homed{
+    font-size: 25px;
  }
