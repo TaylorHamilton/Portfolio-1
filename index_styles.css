@@ -33,7 +33,7 @@ html{
 }
 body{
    font-family: night, azonix, blowup ,sans-serif;
-    background: linear-gradient( 10deg, black 20%, rgb(31, 0, 170), rgb(3, 129, 51));
+    background: linear-gradient( 10deg, black 20%, rgb(31, 0, 170), rgb(3, 129, 51)90%);
     max-width: 1000px;
     min-width: 640px;
     margin: auto;
@@ -45,8 +45,9 @@ article#contact h1{
    text-decoration: underline;
 }
 article#home h1{
-   font-size: 75px;
+   font-size: 50px;
    text-decoration: underline;
+   text-align: center;
 }
 article#skills h1{
    font-size: 50px;
@@ -59,14 +60,15 @@ aside#projects p{
    text-indent: 20px;
 }
 img#fbla{
-   float: right;
+   width: 300px;
+   height: 300px;
 }
 img#skill{
    width: 200px;
 }
 img#school{
-    float: left;
-    height: 250px;
+    height: 300px;
+    width: 290px;
 }
 img#skill2{
    width: 350px;
@@ -96,9 +98,10 @@ img{
     height: 250px;
     box-sizing: border-box;
     padding: 0%;
-    clear: both;
-    content: "";
-    float: left;
+}
+img#logo{
+   width: 500px;
+   height: 350px;
 }
 nav a{
     color: rgb(253, 253, 253);
@@ -169,12 +172,18 @@ footer::after {
  div.col-1-4 {
     width: 25%;
  }
+ div.col-3-8 {
+   width: 37.5%;
+}
  div.col-3-4 {
     width: 75%;
  }
  div.col-1-5 {
     width: 20%;
  }
+ div.col-4-5 {
+   width: 80%;
+}
  img[src$="icon.png"] {
     display: inline;
  }
@@ -221,6 +230,7 @@ footer::after {
    border: double white 7px;
    border-radius: 25px;
    box-shadow: inset 5px 5px 10px white;
+   text-align: center;
  }
  article#skills{
     font-size: 50px;
@@ -230,4 +240,7 @@ footer::after {
  }
  p#homed{
     font-size: 25px;
+ }
+ aside#about{
+    padding-left: 5px;
  }
